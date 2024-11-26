@@ -1,0 +1,27 @@
+
+#container {
+    position: relative;
+    padding-top: 20px; 
+}
+
+
+#logos {
+    position: absolute;
+    top: 10px;  
+    right: 10px; 
+    width: auto;  
+    height: 50px; 
+}
+
+/* Responsividad: Ajustar el tamaño del logo en pantallas más pequeñas */
+@media (max-width: 768px) {
+    #logos {
+        height: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #logos {
+        height: 30px;
+    }
+}

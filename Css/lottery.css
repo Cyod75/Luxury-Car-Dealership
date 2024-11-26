@@ -1,0 +1,100 @@
+#emergente .popup {
+    display: none; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  #emergente .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  #emergente .cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  #emergente .cerrar:hover {
+    color: red;
+  }
+  
+ 
+  #emergente .sorteo {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+  }
+  
+  #emergente h1 {
+      text-align: center;
+      color: #b89b59;
+  }
+  
+  #emergente form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #emergente label {
+      margin-bottom: 8px;
+      font-weight: bold;
+  }
+  
+  #emergente input, #emergente select {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  
+  #emergente button {
+      padding: 10px;
+      background-color: #b89b59;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  #emergente button:hover {
+      background-color: #b89b59;
+  }
+  
+ 
+  #emergente .hidden {
+      display: none;
+  }
+  
+  #emergente #confirmationMessage {
+      text-align: center;
+      color: #443e3f;
+      font-size: 18px;
+      margin-top: 20px;
+      background-color: #ece5e5;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  
+  
+
+  

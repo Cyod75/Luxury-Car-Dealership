@@ -1,0 +1,20 @@
+.redirigir{
+    position: absolute;
+    right: 100px;
+}
+
+#telefono{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 75px;
+    bottom: 10px;
+}
+
+#ayuda{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    right: 25px;
+    bottom: 10px;
+}
